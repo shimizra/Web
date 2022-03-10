@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+        <head>
+               <title>Convert To Hebrew</title>
+               <link rel="stylesheet" href="index.css">
+               <link rel="preconnect" href="https://fonts.gstatic.com">      
+               <link rel="stylesheet" href="ConvertToHebrew.css">
+               <script src="ConvertToHebrew.js"></script>
+        </head>
+
+        <body onload="currentDate()" class="body">
+
+                <div class="div1">
+           
+                    
+                <h3 class="p1">דף זה מייצג המרה מלוח שנה גרגוריאני ללוח שנה עברי</h3>
+            
+                <input type="date" id="GregorianId">  <label>:הכנס תאריך</label>
+            
+                <p>לחץ על הכפתור על מנת לקבל את התאריך בעברית</p>
+            
+                <button class="button1" id="b1" onclick="conversionToHebrew()">לחץ כאן</button>
+            
+                <span class="myDivHebrew2"  id="Myspan"><p class="p1">התאריך הינו: </p> </span> <p class="p1" id="HebrewId"></p>  
+
+                <div class="myDivHebrew2" id="Mydiv"><p><strong>:למדקדקים  שבינינו</strong>
+                    </br> יש להוסיף את האות 'ה' לפני תחילת השנה, המציינת חמשת אלפים שנה לבריאת העולם
+                </p></div> 
+                
+        </div>
+        </body>
+</html>
+            

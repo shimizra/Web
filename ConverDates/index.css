@@ -1,0 +1,76 @@
+.body
+{
+    background: url("picture/clock.jpg") no-repeat;
+    background-size: cover;
+}
+
+.div1
+{
+    width: 70%;
+    height: 70%;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 5%;
+    background-color:white;
+    opacity: 0.5;
+    border-radius: 25px;
+    box-shadow: gray;
+    position: fixed; /* or absolute */
+    top: 10%;
+    left: 15%;
+}
+
+.p1
+{
+    font-family: 'Heebo', sans-serif;
+    direction: rtl;
+    font-size:1.35vw;
+}
+.p2
+{
+    font-family: 'Heebo', sans-serif;
+    direction: rtl;
+    font-size:3.2vw;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+.div2
+{
+    width: 100%;
+    height: 100%;
+    font-family: 'Heebo', sans-serif;
+    direction: rtl;
+    font-size:1.35vw;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.div3
+{
+    width: 100%;
+    height: 100%;
+    font-family: 'Heebo', sans-serif;
+    direction: rtl;
+    font-size:1.35vw;
+    text-align: center;
+    padding-top: 4%;
+}
+.table
+{
+    width: 90%;
+    height: 60%;
+    margin:0 auto;
+    text-align: center;
+}
+ 
+.button1 {
+    background-color: white;
+    color: black;
+    border: 3px solid #555555;
+    
+  }
+  .button1:hover {
+    background-color: #555555;
+    color: white;
+  }

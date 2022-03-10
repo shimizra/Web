@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+        <head>
+               <title>Convert To Gregorian </title>
+               <link rel="stylesheet" href="ConvertToGregorian.css">
+               <script src="ConvertToGregorian.js"></script>
+        </head>
+
+        <body class="body">
+                <div class="div1">
+
+                <h3 class="p1">דף זה מייצג המרה מלוח שנה עברי ללוח שנה גרגוריאני
+
+                </h3>
+            
+                <label>:הכנס תאריך</label>
+                <form >
+                        <b>שנה </b>
+                                 <select name="MonthH">
+                                <option Value="Tishrei">Tishrei
+                                <option Value="Cheshvan">Cheshvan
+                                <option Value="Kislev">Kislev
+                                <option Value="Tevet">Tevet
+                                <option Value="Shevat">Shevat
+                                <option Value="Adar I">Adar I
+                                <option Value="Adar II">Adar II
+                                <option Value="Nisan">Nisan
+                                <option Value="Iyyar">Iyyar
+                                <option Value="Sh'vat">Sh'vat
+                                <option Value="Tamuz">Tamuz
+                                <option Value="Av">Av
+                                <option Value="Elul">Elul
+                              </select> 
+                              <b>חודש </b>
+                                 <select name="DateH">
+                                <option Value="1">1
+                                <option Value="2">2
+                                <option Value="3">3
+                                <option Value="4">4
+                                <option Value="5">5
+                                <option Value="6">6
+                                <option Value="7">7
+                                <option Value="8">8
+                                <option Value="9">9
+                                <option Value="10">10
+                                <option Value="11">11
+                                <option Value="12">12
+                                <option Value="13">13
+                                <option Value="14">14
+                                <option Value="15">15
+                                <option Value="16">16
+                                <option Value="17">17
+                                <option Value="18">18
+                                <option Value="19">19
+                                <option Value="20">20
+                                <option Value="21">21
+                                <option Value="22">22
+                                <option Value="23">23
+                                <option Value="24">24
+                                <option Value="25">25
+                                <option Value="26">26
+                                <option Value="27">27
+                                <option Value="28">28
+                                <option Value="29">29
+                                <option Value="30">30
+                              </select> 
+                               <b>יום </b> 
+                        <input type="text" name="YearH" value="5765"><p>
+                                  
+                         <p>לחץ על הכפתור על מנת לקבל את התאריך בעברית</p>
+
+                
+                        <input type="button"
+                               value="לחץ כאן" class="button1"
+                               onclick="conversionToGregorian(YearH.value, MonthH.value, DateH.value)">
+
+                        <span class="myDivHebrew2"  id="Myspan"><p class="p1">התאריך הינו: </p> </span> <p class="p1" id="HebrewId"></p>  
+
+                                 
+                 <p class="p1" id="GregorianId"></p> 
+                </form>
+
+        </body>
+</html>
+            
